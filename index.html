@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>MAD-OR-PO-REP CT</title>
+  <link rel="icon" href="logo.png" type="image/png">
+  <style>
+    body {
+      margin: 0;
+      background-color: #CCCCCC;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    header {
+      display: flex;
+      align-items: center;
+      /* Separa el título del botón de descarga */
+      justify-content: space-between; 
+      background-color: #001f3f;
+      color: white;
+      padding: 20px 30px;
+      margin: 20px;
+      border-radius: 20px;
+    }
+
+    /* Contenedor para logo y h1 */
+    .header-left {
+      display: flex;
+      align-items: center;
+    }
+
+    header img {
+      height: 60px;
+      margin-right: 20px;
+      border-radius: 12px;
+    }
+
+    header h1 {
+      font-size: 26px;
+      margin: 0;
+    }
+
+    /* Botón de Descarga estilo la imagen */
+    .btn-excel {
+      background-color: #0d2a4a; /* Azul un poco más claro que el fondo para resaltar */
+      color: white;
+      text-decoration: none;
+      padding: 10px 20px;
+      border-radius: 12px;
+      border: 1px solid #334d66;
+      font-size: 14px;
+      display: flex;
+      align-items: center;
+      transition: background 0.3s;
+    }
+
+    .btn-excel:hover {
+      background-color: #1a3a5c;
+    }
+
+    .btn-excel i, .btn-excel span {
+      margin-right: 8px;
+    }
+
+    .iframe-container {
+      display: flex;
+      justify-content: center;
+      padding: 0 20px 40px 20px;
+    }
+
+    iframe {
+      width: 90vw;
+      height: 90vh;
+      border: 2px solid #001f3f;
+      border-radius: 12px;
+      background-color: white;
+    }
+
+    footer {
+      background-color: #001f3f;
+      color: white;
+      text-align: center;
+      padding: 15px;
+      font-size: 14px;
+      border-radius: 20px;
+      margin: 20px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="header-left">
+      <img src="logo.png" alt="Logo">
+      <h1>MAD-OR-PO-REP CT</h1>
+    </div>
+
+    <a href="https://1drv.ms/x/c/a3d1fea0c2538ed3/IQDRyjZGoJZhTbtoV6RHFR-_AQ6a_Fecya54_NPMRDglNkQ?e=BqLuwo" 
+       class="btn-excel" 
+       target="_blank">
+      <span>↓</span> Descargar Excel
+    </a>
+  </header>
+
+  <div class="iframe-container">
+    <iframe 
+      src="https://app.powerbi.com/view?r=eyJrIjoiMGI2N2VmNzMtOGUwOS00OGFkLWJjMTAtYzE2MzIwMzJjZTVkIiwidCI6IjE0Mzg0YTY2LWEwYWYtNDNjNC1iMDFhLTMxM2FjZjdhYzYyNiIsImMiOjR9" 
+      frameborder="0" 
+      allowfullscreen>
+    </iframe>
+  </div>
+
+  <footer>
+    Información propiedad de JOBS SRL, sujeta a revisión.
+  </footer>
+
+</body>
+</html>
